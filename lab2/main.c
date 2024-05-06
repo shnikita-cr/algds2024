@@ -6,7 +6,7 @@ int main() {
     Node *root = NULL;
     printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
     printf("before delete\n");
-    insert(&root, 10, 11);
+    insertNode(&root, 10, 11);
     graphicalPrint(root,0);
     deleteNode(&root,10);
     printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");

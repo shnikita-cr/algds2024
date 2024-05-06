@@ -15,7 +15,7 @@ Node *leftRotate(Node *x);
 
 Node *search(Node *root, int key);
 
-void insert(Node **root, int key, int priority);
+void insertNode(Node **root, int key, int priority);
 
 Node* deleteNode(Node ** root, int key);
 
